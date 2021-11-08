@@ -119,7 +119,6 @@ ul {
   margin: 40px 20px;
   display: flex;
   justify-content: space-between;
-  text-transform: lowercase;
 }
 .header-img {
   box-shadow: 4px 4px 0px 7px;

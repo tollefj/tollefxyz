@@ -1,7 +1,7 @@
 <script>
-import {opts_geom, opts_normal, opts_fireworks} from './particles.js'
+import {opts_normal, opts_geom, opts_fireworks} from './particles.js'
 
-const opts = [opts_geom, opts_normal, opts_fireworks]
+const opts = [opts_normal, opts_geom, opts_fireworks]
 let opts_idx = 0
 
 function load() {
@@ -52,17 +52,17 @@ const github = 'ph10m'
     linkedin={linkedin}
     github={github}
     titles={[
-      'PhD Candidate, Language Technology, NTNU, DART group',
+      'PhD Candidate (NLP) [NTNU DART]',
       'Computer scientist (MSc)'
     ]}
   />
   <!-- <div class="shape"></div> -->
-  {#if !printMode}
+  <!-- {#if !printMode}
     <div class='buttons'>
-      <!-- <button class='btn-dark btn-sm m-1' on:click={toggleParticles}>toggle</button> -->
+      <button class='btn-dark btn-sm m-1' on:click={toggleParticles}>toggle</button>
       <button class='btn-dark btn-sm m-1' on:click={nextStyle}>change style :)</button>
     </div>
-  {/if}
+  {/if} -->
 </div>
 {#if !printMode}
   <Footer
